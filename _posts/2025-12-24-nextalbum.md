@@ -5,7 +5,7 @@ show_date: true
 title: Nextalbum
 date: 2025-12-24
 description: 下一张专辑
-img: 20230429/sequel.jpg
+img: 20251224/nextalbum.jpg
 tags: ["2025","nextalbum"]
 author: 简律纯
 mathjax: yes
