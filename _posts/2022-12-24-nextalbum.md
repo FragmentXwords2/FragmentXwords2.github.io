@@ -3,7 +3,7 @@ layout: post
 read_time: false
 show_date: true
 title: Nextalbum
-date: 2025-12-24
+date: 2022-12-24
 description: 下一张专辑
 img: 20251224/nextalbum.jpg
 tags: ["2025","nextalbum"]
