@@ -1,2 +1,0 @@
-pyEmail==0.0.1
-pyOpenSSL==23.0.0

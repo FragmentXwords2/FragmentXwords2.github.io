@@ -1,33 +1,18 @@
----
-layout: home-page
----
-{% include calculate_relative_base.html %}
-<script
-  id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/05197677e942415044cd147d1/62990a59ba1bc6a0cefaa174d.js");</script>
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-  {% include remove_double_slash.html %}
-  {% assign date = post.date %}
-  <!-- <{% if include.type=="recent-item-meta" %}p{% else %}span{% endif %} class="page_meta-date"> -->
-  <!-- <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%B %-d, %Y" }}</time> -->
-  <!-- </{% if include.type=="recent-item-meta" %}p{% else %}span{% endif %}> -->
-  <li>
-    <div class="post-card">
-      <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image"
-        style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
-      </a>
-      <div class="post-card-body">
-        <p class="post-card-title-and-meta">
+<!DOCTYPE html>
+<html lang="en">
 
-          <a href="{{ post_url }}" class="post-card-link">
-            {{ post.title }}
-            <br>
-            <small><time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%B %-d, %Y" }}</time></small>
-          </a>
-          <!-- {% include post_meta.html type="post-card-meta" date="none" %} -->
-        </p>
-      </div>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/monstercat-clone/fav-icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monstercat Clone</title>
+  <script type="module" crossorigin src="/monstercat-clone/assets/index-bd4859d3.js"></script>
+  <link rel="stylesheet" href="/monstercat-clone/assets/index-5d0e7f80.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  
+</body>
+
+</html>
